@@ -35,7 +35,7 @@ app.post("/",function(req,res){
             }
         ]
     }
-    
+    //to convert in string
     const jsonData = JSON.stringify(data);
 
     const url = "https://us9.api.mailchimp.com/3.0/lists/34a331fbd3"
